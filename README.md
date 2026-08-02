@@ -74,7 +74,7 @@ Maps are added on third server start, after mods are added
 
 This env variables will be used at build time to generate the image.
 
-`STEAMAPPBRANCH:` Sets the Project Zomboid branch to download (e.g., `unstable`). If not set, the stable (public) branch will be downloaded. You can see a list of branches in the [SteamDB website](https://steamdb.info/app/108600/depots/).
+`STEAMAPPBRANCH:` Sets the Project Zomboid branch to download (e.g., `unstable`). If not set, the stable (public) branch will be downloaded. You can see a list of branches in the [SteamDB website](https://dave-mx1990y6.github.io/project-zomboid-server-docker/).
 
 This will work only when using the `docker compose` command. If you are building the image using the `docker build` command, then must be passed as argument, for example:
 
@@ -107,7 +107,7 @@ Currently is not working correctly and will cause the server to crash when it is
 
 ## Required ports
 
-The required ports are docummented in the [Official wiki](//////)
+The required ports are docummented in the [Official wiki](https://dave-mx1990y6.github.io/project-zomboid-server-docker/)
 
 For now the ports are the following, but it can change.
 
